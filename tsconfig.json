@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "noImplicitAny": true,
-    "NoImplicitThis": true,
+    "noImplicitThis": true,
     "strictNullChecks": true,
     "baseUrl": "src"
   },
