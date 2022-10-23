@@ -13,6 +13,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   - debugging [configuration](https://nextjs.org/docs/advanced-features/debugging) for client, server, and full stack
     - Cross-Env - easier cross-environment environment variables
     - set environment variables in terminal for both MacOS/Linux and Windows
+- Storybook
+-
 
 ## Getting Started
 
