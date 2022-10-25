@@ -14,7 +14,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
     - Cross-Env - easier cross-environment environment variables
     - set environment variables in terminal for both MacOS/Linux and Windows
 - Storybook
--
+- Tailwind
 
 ## Getting Started
 
