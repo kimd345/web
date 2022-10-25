@@ -2,7 +2,7 @@
 import { IPrimaryLayout } from './PrimaryLayout'
 
 const base: IPrimaryLayout = {
-  sampleTextProp: 'Hello world!',
+  children: 'Hello world!',
 }
 
 export const mockPrimaryLayoutProps = {
