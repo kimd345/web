@@ -1,15 +1,15 @@
-import CatCard from 'components/cards/cat/CatCard'
-import { mockCatCardProps } from 'components/cards/cat/CatCard.mocks'
+import CollectionCard from 'components/cards/collection/CollectionCard'
+import { mockCollectionCardProps } from 'components/cards/collection/CollectionCard.mocks'
+import NFTCard from 'components/cards/nft/NFTCard'
+import { mockNFTCardProps } from 'components/cards/nft/NFTCard.mocks'
 import PrimaryLayout from 'components/layouts/primary/PrimaryLayout'
 import { NextPageWithLayout } from './page'
 
 const Home: NextPageWithLayout = () => {
   return (
-    <section className="bg-gradient-to-r from-cyan-500 to-blue-500">
-      <h1>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
-      <CatCard {...mockCatCardProps.base} />
+    <section>
+      <CollectionCard {...mockCollectionCardProps.base} />
+      <NFTCard {...mockNFTCardProps.base} />
     </section>
   )
 }

@@ -13,6 +13,23 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
+    extend: {
+      colors: {
+        purple: {
+          light: '#7D57C6',
+          DEFAULT: '#613F93',
+          dark: '#4C2B7F',
+        },
+        blue: {
+          light: '#50D6FF',
+          DEFAULT: '#00ADEE',
+          dark: '#1B75BB',
+        },
+      },
+      fontFamily: {
+        sans: ['Rajdhani', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

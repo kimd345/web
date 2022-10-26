@@ -2,7 +2,10 @@
 import { ICollectionCard } from './CollectionCard'
 
 const base: ICollectionCard = {
-  sampleTextProp: 'Hello world!',
+  collectionName: 'Lorem Ipsum',
+  createdAt: '01/01/2022',
+  totalNfts: 30,
+  imageUrl: '/time-cat.jpg',
 }
 
 export const mockCollectionCardProps = {
